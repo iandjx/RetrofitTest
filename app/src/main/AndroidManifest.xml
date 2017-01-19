@@ -28,7 +28,7 @@
 
                 <data
                     android:scheme="https"
-                    android:host="mohammadretrofittest"
+                    android:host="ianretrofit"
                     android:port="99"
                     android:pathPattern="/.*" />
             </intent-filter>

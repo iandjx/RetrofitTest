@@ -16,10 +16,10 @@ import retrofit2.http.Path;
 public interface Imgur {
 
     String IMGUR_BASE_URL = "https://api.imgur.com";
-    String IMGUR_CLIENT_ID = "ba2885da578e8b9";
+    String IMGUR_CLIENT_ID = "0af7f86fd291c6f";
     String AUTHORIZATION_URL = "https://api.imgur.com/oauth2/authorize?client_id=" +
             IMGUR_CLIENT_ID + "&response_type=token";
-    String REDIRECT_URI = "https://mohammadretrofittest:99";
+    String REDIRECT_URI = "https://ianretrofit:99";
 
     interface Auth {
         @GET("3/account/{username}/images/{page}")
